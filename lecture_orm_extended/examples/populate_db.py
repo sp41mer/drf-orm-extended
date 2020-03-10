@@ -4,7 +4,7 @@ import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'conf.settings'
 django.setup()
 
-from lecture_orm_extended.models import Student, City, School, SuperDummy
+from lecture_orm_extended.models import Student, City, School
 from random import randrange
 
 
